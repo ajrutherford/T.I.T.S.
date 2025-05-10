@@ -65,7 +65,8 @@ INSERT INTO species (name, home_planet, danger_level, description) VALUES
 ('Velari', 'Xenthros Prime', 4, 'Peaceful, photosynthetic beings known for diplomacy.'),
 ('Mechari', 'Forge World KX-22', 7, 'Cybernetic constructs designed for war.'),
 ('Umbrixian', 'Void Sector 12', 10, 'Shadow-dwelling entities made of dark matter.'),
-('Terran', 'Earth', 3, 'Standard human species from the Sol system.');
+('Terran', 'Earth', 3, 'Standard human species from the Sol system.'),
+('Voltarian', 'Voltar', 3, 'The most chilled species in the universe');
 
 INSERT INTO assassins (code_name, real_name, species_id, years_active, reputation_score, preferred_weapon) VALUES
 ('VoidFang', 'Kara Zenth', 4, 17, 9.5, 'Quantum Blade'),
@@ -86,7 +87,8 @@ INSERT INTO reasons_for_termination (reason_text) VALUES
 ('Unlawful use of forbidden technology'),
 ('Contracted by rival syndicate'),
 ('Information leak risk'),
-('Elimination of political opposition');
+('Elimination of political opposition'),
+('Chewing gum in the turbolift');
 
 INSERT INTO contracts (assassin_id, target_id, reason_id, reward_amount, is_completed, contract_date, completion_date) VALUES
 (1, 1, 2, 750000.00, TRUE, '2425-03-21', '2425-03-27'),
